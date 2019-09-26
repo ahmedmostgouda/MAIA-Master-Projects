@@ -1,0 +1,23 @@
+﻿  Compiling CUDA source file segmentation.cu...
+  
+  C:\Users\Ahmed\Documents\Visual Studio Projects\try2\try2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -IC:\opencv\build\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\segmentation.cu.obj "C:\Users\Ahmed\Documents\Visual Studio Projects\try2\try2\segmentation.cu" 
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+C:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+C:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+c:\opencv\build\include\opencv2\flann\lsh_table.h(220): warning : statement is unreachable
+c:\opencv\build\include\opencv2\flann\lsh_table.h(225): warning : statement is unreachable
+c:\opencv\build\include\opencv2\flann\lsh_table.h(234): warning : statement is unreachable
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+C:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+C:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+  segmentation.cu
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+C:/Users/Ahmed/Documents/Visual Studio Projects/try2/try2/segmentation.cu(235): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:/Users/Ahmed/Documents/Visual Studio Projects/try2/try2/segmentation.cu(279): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/Ahmed/Documents/Visual Studio Projects/try2/try2/segmentation.cu(282): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/Ahmed/Documents/Visual Studio Projects/try2/try2/segmentation.cu(304): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/Ahmed/Documents/Visual Studio Projects/try2/try2/segmentation.cu(344): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:/Users/Ahmed/Documents/Visual Studio Projects/try2/try2/segmentation.cu(366): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  try2.vcxproj -> C:\Users\Ahmed\Documents\Visual Studio Projects\try2\x64\Debug\try2.exe
